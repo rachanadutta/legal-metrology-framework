@@ -1,0 +1,38 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and OS
+.DS_Store
+.vscode/
+.idea/
+
+# Frontend
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+
+# Research datasets - keep local
+data/package_images/*
+data/annotations/*
+data/regulatory_sources/*
+data/evaluation/*
