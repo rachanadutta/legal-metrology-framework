@@ -1,0 +1,20 @@
+
+# Backend framework
+fastapi
+uvicorn[standard]
+
+# Data validation
+pydantic
+pydantic-settings
+
+# Database
+sqlalchemy
+alembic
+pymysql
+
+# Testing
+pytest
+httpx
+
+# Development tools
+python-dotenv
