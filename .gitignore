@@ -36,3 +36,17 @@ data/package_images/*
 data/annotations/*
 data/regulatory_sources/*
 data/evaluation/*
+
+# Module 1 dataset
+data/module1/raw_images/
+data/module1/processed_images/
+data/module1/ocr_outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables
+.env
